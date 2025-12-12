@@ -8,9 +8,8 @@ import {
 import { z } from "zod";
 import Retell from "retell-sdk";
 
-const chatAIClient = new RetellAI.Client({
-  // Make sure RETELL_AI_API_KEY is set in .env.local or your hosting env
-  apiKey: process.env.RETELL_AI_API_KEY!,
+const retellClient = new Retell({
+  apiKey: process.env.RETELL_API_KEY!,
 });
 
 /**
