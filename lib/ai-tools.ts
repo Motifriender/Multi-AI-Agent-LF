@@ -9,7 +9,7 @@ import { z } from "zod";
 import Retell from "retell-sdk";
 
 const retellClient = new Retell({
-  apiKey: process.env.RETELL_API_KEY!,
+  apiKey: process.env.RETELL_API_KEY,
 });
 
 /**
