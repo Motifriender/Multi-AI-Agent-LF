@@ -6,7 +6,7 @@ import {
   type InferUITools,
 } from "ai";
 import { z } from "zod";
-import RetellAI from "retell-ai-sdk";
+import Retell from "retell-sdk";
 
 const chatAIClient = new RetellAI.Client({
   // Make sure RETELL_AI_API_KEY is set in .env.local or your hosting env
